@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./includes/head.ejs") %> 
+<body>
+    <nav><a href="/">Home</a>
+        <a href="/products/">Products</a>
+        <a href="/products/create">Crear</a>
+    </nav>
+    <section>
+        <h2>En Oferta</h2>
+        <ul>
+            <% products.forEach(element => { %>
+                <li>
+                    <a href="/products/detail/<%= element.id %> ">
+                        <picture><img src="<%= element.image %> " alt=""></picture>
+                        <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
+                        <p><%= element.description %></p>
+                    </a>
+                </li>
+            <% }) %>
+        </ul>
+    </section>
+</body>
+</html>
