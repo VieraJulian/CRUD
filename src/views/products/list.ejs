@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include("./includes/head.ejs") %> 
+<%- include("../includes/head.ejs") %> 
 <body>
     <nav><a href="/">Home</a>
         <a href="/products/">Albums</a>
         <a href="/products/create">Create</a>
     </nav>
     <section>
-        <h2>Offerts</h2>
+        <h2>All Albums</h2>
+            <form action="/products/" method="get">
+                <input type="text" name="name" id="name" placeholder="Album name">
+                <button>Search</button>
+            </form>
         <ul>
             <% products.forEach(element => { %>
                 <li>
                     <a href="/products/detail/<%= element.id %> ">
-                        <picture><img src="/products/<%= element.image %>" alt=""></picture>
+                        <picture><img src="/products/<%= element.image %> " alt=""></picture>
                         <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
                         <p><%= element.description %></p>
                     </a>

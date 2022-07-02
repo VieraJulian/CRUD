@@ -1,23 +1,30 @@
 [
-    {
-        "id":1,
-        "name": "Roxette Look Sharp!",
-        "price": 1200,
-        "description": "Look Sharp! es el segundo álbum de estudio del grupo sueco Roxette.",
-        "image": "https://m.media-amazon.com/images/I/71SxUW4ERDL._SL1200_.jpg"
-    },
-    {   
-        "id":2,
-        "name": "ABBA Waterloo",
-        "price": 2400,
-        "description":"Waterloo es el nombre del segundo de estudio del grupo sueco ABBA.",
-        "image":"https://m.media-amazon.com/images/I/81FuCd+bHcL._SL1400_.jpg"
-    },
-    {
-        "id":3,
-        "name": "Pink floyd",
-        "price": 4000,
-        "description": "The Dark Side of the Moon —en español: El Lado Oscuro de la Luna— es un álbum conceptual, el octavo de estudio de la banda británica de rock progresivo Pink Floyd.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Optical-dispersion.png"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Roxette Look Sharp!",
+    "price": 1200,
+    "description": "Look Sharp! es el segundo álbum de estudio del grupo sueco Roxette.",
+    "image": "Roxette.jpg"
+  },
+  {
+    "id": 2,
+    "name": "ABBA Waterloo",
+    "price": 2400,
+    "description": "Waterloo es el nombre del segundo de estudio del grupo sueco ABBA.",
+    "image": "ABBA.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pink floyd",
+    "price": 4000,
+    "description": "The Dark Side of the Moon —en español: El Lado Oscuro de la Luna— es un álbum conceptual, el octavo de estudio de la banda británica de rock progresivo Pink Floyd.",
+    "image": "Pink.png"
+  },
+  {
+    "id": 4,
+    "name": "Yellow Submarine",
+    "price": 4000,
+    "description": "«Yellow Submarine» es una canción de la banda británica de rock, The Beatles, cantada por Ringo Starr, es una canción auténtica de Lennon-McCartney y grabada entre el 26 de mayo y el 1 de junio de 1966, en los estudios 2 y 3 de EMI Studios. Formó parte del séptimo y undécimo álbumes de estudio, Revolver y Yellow Submarine, respectivamente. Fue la primera y única canción cantada por Ringo que llegó al número uno de las listas de éxitos.",
+    "image": "image-1656803626425-42547013.webp"
+  }
+]

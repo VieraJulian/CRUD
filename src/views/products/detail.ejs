@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../includes/head.ejs") %> 
+<body>
+    <nav><a href="/">Home</a>
+        <a href="/products/">Albums</a>
+        <a href="/products/create">Crete</a>
+    </nav>
+    <section>
+        <h2><%= product.name %> - <span>$<%= product.price %></span></h2>
+        <picture>
+            <img src="/products/<%= product.image %>" alt="">
+        </picture>
+        <p><%= product.description %></p>
+    </section>
+</body>
+</html>
